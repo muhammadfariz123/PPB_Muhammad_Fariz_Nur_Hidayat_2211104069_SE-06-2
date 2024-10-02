@@ -3,105 +3,105 @@ void main(){
   // // VARIABLE
   // penamaan variable menggunakan camelCase
 
-  // String firstName = 'Praktikum';
-  // var lastName = "PPB";
-  // final cuaca = 'cerah';
+  String firstName = 'Praktikum';
+  var lastName = "PPB";
+  final cuaca = 'cerah';
 
-  // print('hari ini $cuaca. welcome to $firstName');
+  print('hari ini $cuaca. welcome to $firstName');
 
   // ============================================================
 
   // IF ELSE STATEMENT
-  //   var open = 8;
-  //   var close = 17;
-  //   var now = 13;
+     var open = 8;
+     var close = 17;
+     var now = 13;
 
-  //   if (now >= open && now < close) {
-  //     print("Toko Buka");
-  // }  else if (now == 13) {
-  //   print("Toko sedang istirahat");
-  // }  else {
-  //     print("Toko Tutup");
-  //   }
+     if (now >= open && now < close) {
+       print("Toko Buka");
+   }  else if (now == 13) {
+     print("Toko sedang istirahat");
+   }  else {
+       print("Toko Tutup");
+   }
 
 
-  // // condition ? true : false
-  // var toko = now > open ? "toko buka": "toko tutup";
-  // print(toko);
+   condition ? true : false
+   var toko = now > open ? "toko buka": "toko tutup";
+   print(toko);
 
 
   // =============================================================
 
-  // SWITCH CASE                                                  
-  // var nilai = 'b';
+   SWITCH CASE                                                  
+   var nilai = 'b';
 
-  // switch (nilai){
-  //   case 'a':
-  //     print('Nilai sangat bagus');
-  //     break;
-  //   case 'b' :
-  //     print('nilai bagus');
-  //     break;
-  //   case 'c' :
-  //     print('nilai cukup');
-  //     break;
-  //   default:
-  //     print('nilai tidak tersedia');
-  //  }
+   switch (nilai){
+     case 'a':
+         print('Nilai sangat bagus');
+         break;
+     case 'b' :
+         print('nilai bagus');
+         break;
+     case 'c' :
+         print('nilai cukup');
+         break;
+         default:
+         print('nilai tidak tersedia');
+  }
 
   // =============================================================
 
   // LOOPING
-  // for(int i=0; i <= 10; i++){
-  //   print(i);
-  // }
+  for(int i=0; i <= 10; i++){
+    print(i);
+  }
 
-  // int i = 1;
+    int i = 1;
 
-  // while (i <=5 ){
-  //   print('Angka: $i');
-  //   i++;
-  // }
+    while (i <=5 ){
+    print('Angka: $i');
+    i++;
+  }
 
   // ==============================================================
 
   // LIST
-  // List<int> fixedList = List.filled(3, 0);
+    List<int> fixedList = List.filled(3, 0);
 
-  // fixedList[0] = 10;
-  // fixedList[1] = 20;
-  // fixedList[2] = 30;
+    fixedList[0] = 10;
+    fixedList[1] = 20;
+    fixedList[2] = 30;
 
-  // print('Fixed Length List: $fixedList');
+    print('Fixed Length List: $fixedList');
 
-  // List<int> growableList = [10,20,30];
+    List<int> growableList = [10,20,30];
 
-  // growableList.add(10);
-  // growableList.add(20);
-  // growableList.add(30);
-  // growableList.add(40);
-  // growableList.add(50);
+    growableList.add(10);
+    growableList.add(20);
+    growableList.add(30);
+    growableList.add(40);
+    growableList.add(50);
 
-  // growableList.remove(20);
+    growableList.remove(20);
 
-  // print(growableList);
+    print(growableList);
 
   // ==============================================================
 
   // FUNGSI 
   // Fungsi tanpa nilai kembalian
-  //     void cetakPesan(String pesan) {
-  //     print(pesan); // Mencetak pesan
-  //     }
+       void cetakPesan(String pesan) {
+       print(pesan); // Mencetak pesan
+       }
 
   // // Fungsi dengan nilai kembalian
-  //     int perkalian(int a, int b) {
-  //     return a * b; // Mengembalikan hasil perkalian
-  //     }
+       int perkalian(int a, int b) {
+       return a * b; // Mengembalikan hasil perkalian
+       }
 
-  //     int hasil=perkalian(5, 4);
-  //     print('hasil perkalian fungsi: $hasil');
-  //     cetakPesan('halo fariz');
+       int hasil=perkalian(5, 4);
+       print('hasil perkalian fungsi: $hasil');
+       cetakPesan('halo fariz');
 }
 
 

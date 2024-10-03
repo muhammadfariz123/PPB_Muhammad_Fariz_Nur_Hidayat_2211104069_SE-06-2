@@ -32,7 +32,7 @@ void main(){
 
   // =============================================================
 
-   SWITCH CASE                                                  
+  // SWITCH CASE                                                  
    var nilai = 'b';
 
    switch (nilai){

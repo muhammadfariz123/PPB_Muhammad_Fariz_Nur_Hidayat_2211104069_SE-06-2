@@ -99,9 +99,9 @@ void main(){
        return a * b; // Mengembalikan hasil perkalian
        }
 
-       int hasil=perkalian(5, 4);
+       int hasil=perkalian(5, 10);
        print('hasil perkalian fungsi: $hasil');
-       cetakPesan('halo fariz');
+       cetakPesan('Hello World');
 }
 
 

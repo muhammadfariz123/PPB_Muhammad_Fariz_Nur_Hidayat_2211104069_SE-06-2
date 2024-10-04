@@ -3,30 +3,40 @@ void main(){
   // // VARIABLE
   // penamaan variable menggunakan camelCase
 
-  String firstName = 'Praktikum';
-  var lastName = "PPB";
-  final cuaca = 'cerah';
+  var name = "yanto";
+  var age = "22";
+  print("name: $name, usia: $age");
+    
 
-  print('hari ini $cuaca. welcome to $firstName');
+  
+ String firstName, lastName; // Tipe data String
+ firstName = "fariz";
+ lastName = "hidayat";
+ final cuaca = "Cerah";
+
+ print("nama: $firstName, $lastName" );
 
   // ============================================================
 
   // IF ELSE STATEMENT
-     var open = 8;
-     var close = 17;
-     var now = 13;
+     //Statement Control
+    // if else
+    var open = 8;
+    var close = 17;
+    var now = 13;
+  
+    if (now >= open && now <= close) {
+      print("Open now!");
+    } else if (now == 13) {
+      print("istirahat sholat jumat");
+    } else {
+      print("Sorry, we're closed.");
+    } // End if
 
-     if (now >= open && now < close) {
-       print("Toko Buka");
-   }  else if (now == 13) {
-     print("Toko sedang istirahat");
-   }  else {
-       print("Toko Tutup");
-   }
 
 
    condition ? true : false
-   var toko = now > open ? "toko buka": "toko tutup";
+   var toko = now > open ? "Toko buka": "Toko tutup";
    print(toko);
 
 
@@ -37,16 +47,16 @@ void main(){
 
    switch (nilai){
      case 'a':
-         print('Nilai sangat bagus');
+         print('Nilai yang sangat bagus');
          break;
      case 'b' :
-         print('nilai bagus');
+         print('Nilai jelek');
          break;
      case 'c' :
-         print('nilai cukup');
+         print('Nilai sangat jelek');
          break;
          default:
-         print('nilai tidak tersedia');
+         print('Nilai default');
   }
 
   // =============================================================

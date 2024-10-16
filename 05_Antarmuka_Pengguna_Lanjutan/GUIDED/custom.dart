@@ -48,19 +48,19 @@ class Custom extends StatelessWidget {
               childCount: 20,
             ),
           ),
-          //Sliver Fixed List
-          // SliverFixedExtentList(
-          //   itemExtent: 50.0,
-          //   delegate: SliverChildBuilderDelegate(
-          //     (BuildContext context, int index) {
-          //       return Container(
-          //         alignment: Alignment.center,
-          //         color: Colors.amber[100 * (index % 9)],
-          //         child: Text('List Item $index'),
-          //       );
-          //     },
-          //   ),
-          // ),
+            Sliver Fixed List
+             SliverFixedExtentList(
+               itemExtent: 50.0,
+               delegate: SliverChildBuilderDelegate(
+                 (BuildContext context, int index) {
+                   return Container(
+                     alignment: Alignment.center,
+                     color: Colors.amber[100 * (index % 9)],
+                     child: Text('List Item $index'),
+                   );
+                 },
+               ),
+             ),
         ],
       ),
     );

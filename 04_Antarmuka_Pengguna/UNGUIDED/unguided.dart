@@ -4,7 +4,6 @@ void main() {
   runApp(MyApp());
 }
 
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -18,32 +17,32 @@ class WisataPage extends StatelessWidget {
   // Data tempat wisata dalam bentuk list
   final List<Map<String, String>> wisataList = [
     {
-      'name': 'Pantai Parangtritis',
+      'name': 'Baturraden',
       'image':
-          'http://1.bp.blogspot.com/-XnZULPz43-k/VDJGODtMOII/AAAAAAAAANc/oLS7TDS5JSo/s1600/Keindahan%2BPantai%2BParangtritis%2BYogyakarta.png',
+          'https://tse4.mm.bing.net/th?id=OIP.kSexhdSW9T8AJO5HNepezwHaE7&pid=Api&P=0&h=220',
       'description':
-          'Pantai yang sangat populer di Yogyakarta dengan pemandangan sunset yang memukau dan legenda Nyi Roro Kidul.'
+          'Baturaden adalah sebuah kawasan wisata alam di lereng Gunung Slamet yang terkenal dengan pemandangan yang indah dan udara yang sejuk.'
     },
     {
-      'name': 'Candi Prambanan',
+      'name': 'Curug Cipendok',
       'image':
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQrvbNwxsD3ivZ4gSdnZWEM7gntlDmGlJUOA&s',
+          'https://tse4.mm.bing.net/th?id=OIP.qDFTvQ0Biunjnb_SHMsCpwHaEK&pid=Api&P=0&h=220',
       'description':
-          'Candi Hindu terbesar di Indonesia, Prambanan merupakan salah satu Situs Warisan Dunia UNESCO yang menakjubkan.'
+          'Curug Cipendok adalah air terjun yang tinggi dengan suasana alam yang masih sangat asri, cocok untuk wisata alam.'
     },
     {
-      'name': 'Gunung Merapi',
+      'name': 'Telaga Sunyi',
       'image':
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjvShndwU7117D5zPTu2W2gglY0nrSJHIoHA&s',
+          'https://tse1.mm.bing.net/th?id=OIP.J6AOfNzshoXykODOrQpgfAHaE7&pid=Api&P=0&h=220',
       'description':
-          'Gunung Merapi merupakan gunung berapi paling aktif di Indonesia, menawarkan pendakian dan wisata lava tour.'
+          'Telaga Sunyi adalah telaga yang berada di kawasan Baturaden, memiliki air yang sangat jernih dan suasana tenang yang menyejukkan.'
     },
     {
-      'name': 'Taman Sari',
+      'name': 'Museum Bank Rakyat Indonesia',
       'image':
-          'https://atourin.obs.ap-southeast-3.myhuaweicloud.com/images/destination/yogyakarta/taman-sari-profile1646084669.png?x-image-process=image/resize,p_100,limit_1/imageslim',
+          'https://tse3.mm.bing.net/th?id=OIP.taBwI29ieFCmWRBzgCE-_QHaEm&pid=Api&P=0&h=220',
       'description':
-          'Bekas taman kerajaan ini menawarkan pemandangan arsitektur yang unik dan sejarah yang menarik di Yogyakarta.'
+          'BMuseum ini menceritakan sejarah berdirinya Bank Rakyat Indonesia, salah satu bank tertua di Indonesia yang didirikan di Purwokerto, Banyumas.'
     },
   ];
 
@@ -52,7 +51,7 @@ class WisataPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Rekomendasi Wisata Yogyakarta"),
+        title: Text("Rekomendasi Wisata Banyumas"),
       ),
       body: ListView.builder(
         padding: const EdgeInsets.all(16.0),
